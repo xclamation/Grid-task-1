@@ -1,6 +1,15 @@
 # Docker Example
 
 This repository contains a Docker Compose setup for launching two Docker containers: one for a database and another as an entry point.
+## Database description:
+### example.db
+schema:
+      ```bash
+      CREATE TABLE users(id INTEGER PRIMARY KEY, name TEXT, email TEXT);
+content:
+      ```bash
+      1|John|john@mail.ru
+      2|Jane|jane@mail.ru
 
 ## Usage
 
@@ -19,4 +28,6 @@ This repository contains a Docker Compose setup for launching two Docker contain
 
 4. Start the Docker containers:
    ```bash
-   docker-compose up -d
+   docker-compose up
+
+## Now you can see the data from the example.db in the terminal 
