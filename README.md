@@ -5,7 +5,8 @@ This repository contains a Docker Compose setup for launching two Docker contain
 ### example.db
 schema:
       ```bash
-      CREATE TABLE users(id INTEGER PRIMARY KEY, name TEXT, email TEXT);
+      CREATE TABLE users(id INTEGER PRIMARY KEY, name TEXT, email TEXT); 
+
 content:
       ```bash
       1|John|john@mail.ru
@@ -14,7 +15,6 @@ content:
 ## Usage
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/xclamation/Grid-task-1.git
 
