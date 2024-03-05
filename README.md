@@ -25,12 +25,12 @@ git clone https://github.com/xclamation/Grid-task-1.git
 ```
 
 2. Navigate to the project directory where docker-compose.yml is located:
-3. 
+
 ```bash
 cd /project/directory
 ```
 3. Build the Docker containers:
-4. 
+
 ```bash
 docker-compose build
 ```
