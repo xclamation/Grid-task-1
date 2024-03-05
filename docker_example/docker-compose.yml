@@ -1,0 +1,17 @@
+version: '3'
+services:
+  db:
+    build: ./db # Building database conatiner
+    restart: on-failure
+    volumes:
+      - db_data:/data   # Mount a volume for persistent data storage
+  entry_point:
+    build: ./entry_point # Building entry point container
+    restart: on-failure
+    depends_on:
+      - db             # Ensure the database container is started first
+    volumes:
+      - db_data:/data   # Mount the same volume used by the database container
+
+volumes:
+  db_data:   # Define a named volume for persistent data storage
