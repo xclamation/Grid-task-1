@@ -40,4 +40,4 @@ docker-compose build
 docker-compose up
 ```
 
-## Now you can see the data from the example.db in the terminal 
+### Now you can see the data from the example.db in the terminal 
