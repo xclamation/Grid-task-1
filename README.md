@@ -1,4 +1,4 @@
-# Docker Compose Example
+# Docker Example
 
 This repository contains a Docker Compose setup for launching two Docker containers: one for a database and another as an entry point.
 
@@ -7,12 +7,11 @@ This repository contains a Docker Compose setup for launching two Docker contain
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/xclamation/Grid-task-1.git
 
-
-2. Navigate to the project directory:
+2. Navigate to the project directory where docker-compose.yml is located:
    ```bash
-   cd your-repo
+   cd /project/directory
 
 3. Build the Docker containers:
    ```bash
